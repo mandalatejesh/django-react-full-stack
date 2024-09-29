@@ -1,0 +1,31 @@
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    width: 1102px;
+    height: 274px;
+    gap: 24px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+    margin-left: 158px;
+    margin-top: 124px;
+    transform: translate(35%,0);
+  }
+  
+  .question {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .question h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+  
+  .question p {
+    margin: 0;
+    font-size: 16px;
+  }
+  

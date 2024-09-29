@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.new-question-container {
+    /* width: 30%;
+    max-width: 630px; Adjust width as per your design requirement */
+    width: 462px;
+    height: 376px;
+    background: #FFFFFF;
+    padding: 24px;
+    box-shadow: 0px 2px 8px 0px #0000001A;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+    transform: translate(0,50%);
+  }
+
+  .new-question-container h3{
+    font-family: 'Rubik';
+    height: 28px;
+    width: 137px;
+    font-weight: 700;
+    font-size: 20px;
+    align-content: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #34324C;
+  }
+  
+  .form-group {
+    margin-bottom: 11px;
+    width: 462px;
+  }
+  
+  .title-input, .content-textarea {
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 12px;
+  }
+  .title-input::placeholder, .content-textarea::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  .title-input {
+    padding: 14px 16px;
+    height: 43px;
+    width: 462px;
+
+  }
+  
+  .content-textarea {
+    padding: 16px 16px;
+    height: 193px; /* Set textarea height */
+    width: 462px;
+  }
+  
+  .post-button {
+    background-color: #99A5E5; /* Green background */
+    color: white;
+    border: none;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    height: 26px;
+    width: 51px;
+    box-shadow: 0px 4px 8px 0px #6074DD40;
+    border-radius: 25px;
+    margin-top: 11px;
+    cursor: pointer;
+  }
+  .row-center{
+    text-align: center;
+    width: 462px;
+  }
+ 
+  .user-profile-container{
+    margin-left: 126px;
+    margin-top: 29px;
+  }
+
+  
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 220px;
+  }
+  .user-profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 157.75px;
+  }
+  .user-profile span {
+    color: #6074DD;
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-size: 16px;
+    width: 160px;
+    height: 24px;
+    margin-left: 12px;
+  }
+
+
+
+  
+ 

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-top: 29px;
+  background-color: #e9e9e9;
+}
+
+.ask-button {
+  width: 114px;
+  height: 32px;
+  /* margin-top: 29px; */
+  border-radius: 25px;
+  padding: 8px 12px;
+  border: 1px solid #6074dd;
+  background: #6074dd;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins";
+  box-shadow: 0px 4px 8px 0px #6074dd40;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 51%;
+}
+
+
